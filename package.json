@@ -1,0 +1,37 @@
+{
+  "name": "mutation-testing-demo",
+  "version": "1.0.0",
+  "description": "Illustrate difference between coverage and mutation testing using stryker",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4",
+    "jest-cli": "^22.1.4",
+    "stryker": "^0.18.1",
+    "stryker-api": "^0.12.0",
+    "stryker-html-reporter": "^0.11.5",
+    "stryker-javascript-mutator": "^0.3.3",
+    "stryker-jest-runner": "^0.3.0"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "stryker": "./node_modules/.bin/stryker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpaciga/mutation-testing-demo.git"
+  },
+  "keywords": [
+    "mutation", "stryker"
+  ],
+  "jest": {
+    "collectCoverage": true
+  },
+  "author": "Gregory Paciga",
+  "license": "CC BY"
+}
