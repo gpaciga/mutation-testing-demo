@@ -6,6 +6,8 @@ This code was originally used in a live presentation, but the code is simple eno
 
 ## Instructions
 
+Requires Node 8.
+
 Install dependencies:
 ```
 npm i

@@ -27,7 +27,8 @@
     "url": "https://github.com/gpaciga/mutation-testing-demo.git"
   },
   "keywords": [
-    "mutation", "stryker"
+    "mutation",
+    "stryker"
   ],
   "jest": {
     "collectCoverage": true
