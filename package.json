@@ -6,20 +6,18 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "jest": "^22.1.4"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^22.1.4",
-    "jest-cli": "^22.1.4",
-    "stryker": "^0.18.1",
-    "stryker-api": "^0.12.0",
-    "stryker-html-reporter": "^0.11.5",
-    "stryker-javascript-mutator": "^0.3.3",
-    "stryker-jest-runner": "^0.3.0"
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "stryker": "^0.35.1",
+    "stryker-api": "^0.24.1",
+    "stryker-html-reporter": "^0.18.1",
+    "stryker-javascript-mutator": "^0.14.1",
+    "stryker-jest-runner": "^1.4.1"
   },
   "scripts": {
-    "test": "jest --verbose",
+    "test": "jest --verbose --testPathIgnorePatterns stryker-tmp",
     "stryker": "./node_modules/.bin/stryker run"
   },
   "repository": {
@@ -31,8 +29,7 @@
     "stryker"
   ],
   "jest": {
-    "collectCoverage": true,
-    "testPathIgnorePatterns": ["stryker-tmp"]
+    "collectCoverage": true
   },
   "author": "Gregory Paciga",
   "license": "CC BY"
