@@ -31,7 +31,8 @@
     "stryker"
   ],
   "jest": {
-    "collectCoverage": true
+    "collectCoverage": true,
+    "testPathIgnorePatterns": ["stryker-tmp"]
   },
   "author": "Gregory Paciga",
   "license": "CC BY"
