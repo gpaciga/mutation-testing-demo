@@ -2,7 +2,7 @@
 
 This repo is meant to help demonstrate the limitations of "test coverage" as a metric and what mutation testing can add.
 
-This code was originally used in a live presentation, but the code is simple enough that it is probably self-explanatory as a static example.
+This code was originally used in a live presentation, but the code is simple enough that it is probably self-explanatory as a static example. See https://gerg.dev/mutation for a walkthrough.
 
 ## Instructions
 
